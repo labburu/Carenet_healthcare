@@ -1,7 +1,7 @@
 # Databricks notebook source
 
 storage_account = "carenetdemodatalake"
-storage_account_key = dbutils.secrets.get("CarenetADLSScope","carenetadlsaccesskey")
+storage_account_key = dbutils.secrets.get("CarenetADLSScope","xxxxx")
 
 
 # Configure Azure Storage account key
@@ -14,7 +14,7 @@ spark.conf.set(
 
 
 import sys
-sys.path.append("/Workspace/Users/lalita.abburu@bluemantis.com/")
+sys.path.append("/Workspace/Users/lalita.abburu@xxxxx.com/")
 from common_utils.AppInsights import *
 
 import logging
