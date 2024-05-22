@@ -1,0 +1,73 @@
+{
+  "InteractionSummary": [
+    {
+      "host_name": "xxxx",
+      "database_name": "I3_IC",
+      "schema_name": "dbo",
+      "sql_table": "InteractionSummary",
+      "watermark_column": "TerminatedDateTimeUTC",
+      "last_inserted_datetime": "2024-05-20T04:25:22.000Z",
+      "landing_container": "landing",
+      "bronze_container": "bronze",
+      "silver_container": "silver",
+      "pregold_container": "pre-gold",
+      "gold_container": "gold",
+      "storage_account": "carenetdemodatalake",
+      "load_type": "incremental",
+      "host_secret": "xxxx-db-mart-server",
+      "db_username_secret": "carenet-server-username",
+      "db_password_secret": "carenet-server-password",
+      "hash_key_column_list": [
+        "InteractionIDKey",
+        "SiteID",
+        "SeqNo"
+      ]
+    },
+    {
+      "host_name": "xxxxx",
+      "database_name": "I3_IC",
+      "schema_name": "dbo",
+      "sql_table": "InteractionSummary",
+      "watermark_column": "TerminatedDateTimeUTC",
+      "last_inserted_datetime": "2024-05-20T04:16:57.000Z",
+      "landing_container": "landing",
+      "bronze_container": "bronze",
+      "silver_container": "silver",
+      "pregold_container": "pre-gold",
+      "gold_container": "gold",
+      "storage_account": "carenetdemodatalake",
+      "load_type": "incremental",
+      "host_secret": "xxxx-server",
+      "db_username_secret": "carenet-server-username",
+      "db_password_secret": "carenet-server-password",
+      "hash_key_column_list": [
+        "InteractionIDKey",
+        "SiteID",
+        "SeqNo"
+      ]
+    },
+    {
+      "host_name": "xxxx",
+      "database_name": "xxxxx",
+      "schema_name": "dbo",
+      "sql_table": "InteractionSummary",
+      "watermark_column": "TerminatedDateTimeUTC",
+      "last_inserted_datetime": "2024-05-20T04:32:30.000Z",
+      "landing_container": "landing",
+      "bronze_container": "bronze",
+      "silver_container": "silver",
+      "pregold_container": "pre-gold",
+      "gold_container": "gold",
+      "storage_account": "carenetdemodatalake",
+      "load_type": "incremental",
+      "host_secret": "xxxx-db-rpt-server",
+      "db_username_secret": "carenet-server-username",
+      "db_password_secret": "carenet-server-password",
+      "hash_key_column_list": [
+        "InteractionIDKey",
+        "SiteID",
+        "SeqNo"
+      ]
+    }
+  ]
+}

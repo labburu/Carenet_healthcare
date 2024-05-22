@@ -1,0 +1,25 @@
+{
+  "Contracts": [
+    {
+      "host_name": "xxxx",
+      "database_name": "devywr",
+      "schema_name": "dbo",
+      "sql_table": "Contracts",
+      "watermark_column": " ",
+      "last_inserted_datetime": "2024-05-21T06:05:13.000Z",
+      "landing_container": "landing",
+      "bronze_container": "bronze",
+      "silver_container": "silver",
+      "pregold_container": "pre-gold",
+      "gold_container": "gold",
+      "storage_account": "carenetdemodatalake",
+      "load_type": "full",
+      "host_secret": "xxxx-db-rpt-server",
+      "db_username_secret": "carenet-server-username",
+      "db_password_secret": "carenet-server-password",
+      "hash_key_column_list": [
+        "ContractId"
+      ]
+    }
+  ]
+}
